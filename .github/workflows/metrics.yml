@@ -17,6 +17,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           plugin_languages: yes
-          plugin_languages_analysis_type: indepth
+          plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 15
           filename: metrics.svg
